@@ -1,0 +1,206 @@
+html,
+body {
+    height: 99%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    height: 100%;
+}
+
+.maintext,
+.online {
+    margin-top: 22%;
+    font-family: 'Zen Dots';
+    font-size: 40px;
+    margin-left: 5%;
+    color: #2ddbe1;
+    margin-bottom: 8%;
+    position: absolute;
+    top: -43%;
+    left: 2%;
+    padding-top: 3%;
+}
+
+form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    padding: 2%;
+    border: 2px solid rgba(66, 65, 62, 0.425);
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(88, 87, 87, 0.3);
+    margin-top: 23%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2ddbe1;
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    color: wheat;
+}
+
+.submit {
+    background-color: #2ddbe1;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.submit:hover {
+    background-color: #21a9ad;
+}
+
+.register {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #2ddbe1;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+#firstname,
+#lastname {
+    display: inline-block;
+    width: 48%;
+}
+
+#lastname {
+    margin-left: 4px;
+}
+
+.firstname,
+.lastname {
+    margin-top: 1%;
+}
+
+.lastname {
+    margin-left: 39%;
+}
+
+#password-error,
+#errorNotmatching,
+#field-empty-error {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 4%;
+    width: 98%;
+    overflow: visible;
+}
+
+.icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icons svg {
+    width: 30px;
+    height: 30px;
+    fill: wheat;
+}
+
+.icons svg:hover {
+    fill: #21a9ad;
+}
+
+.copyright {
+    font-family: 'Zen Dots';
+    color: wheat;
+    padding-top: 6px;
+}
+
+/*scroll bar*/
+
+/* Target the scrollbar track */
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    /* Change the color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Add rounded corners to the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2ddbe1;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Set the scrollbar track to be transparent */
+}
+
+/*scroll bar*/
+
+/* Target the scrollbar track */
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    /* Change the color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Add rounded corners to the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2ddbe1;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Set the scrollbar track to be transparent */
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/admin.css">
+    <link href='https://fonts.googleapis.com/css?family=Zen Dots' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Online Education</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navLi">
+                <li class="active"><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#students">Student</a></li>
+                <li><a href="#tutors">Tutors</a></li>
+                <li class="user-icon">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle icon"
+                            viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="logout()">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="dashboard">
+        <h2 class="title">QUICK ANALYTICS</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <p>TOTAL STUDENTS REGISTERED</p>
+                <p> <i class='fas fa-user-friends'></i>1600</p>
+            </div>
+            <div class="grid-item">
+                <p>TOTAL NUMBER OF TUTORS</p>
+                <p> <i class='fas fa-user-friends'></i>70</p>
+            </div>
+            <div class="grid-item">
+                <p>TOTAL NUMBER OF COURSES</p>
+                <p><i class="fa fa-bar-chart"></i>60</p>
+            </div>
+            <div class="grid-item">
+                <p>PAYOUT REQUEST PENDING</p>
+                <p><i class="fa fa-usd"></i>12</p>
+            </div>
+            <div class="grid-item">
+                <p>TOTAL REFUND REQUESTS PENDING</p>
+                <p><i class="fa fa-usd"></i>123</p>
+            </div>
+            <div class="grid-item">
+                <p>TOTAL COMMISSION</p>
+                <p><i class="fa fa-usd"></i>12200</p>
+            </div>
+        </div>
+    </section>
+    <section id="students">
+        <h2>STUDENTS</h2>
+
+    </section>
+    <section id="tutors">
+        <h2>TUTORS</h2>
+
+        </div>
+    </section>
+    <script src="assets/javascript/data.js"></script>
+    <script src="assets/javascript/admin.js"></script>
+</body>
+
+</html>
